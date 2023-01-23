@@ -1,0 +1,22 @@
+
+
+.div {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transition: 300ms;
+}
+.div:hover{
+    transform: skew(10deg, 10deg) rotate(-10deg) translateX(100px);
+}
+
+.figure{
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
+    margin-top: 100px;
+    background: rgb(65,58,247);
+    background: linear-gradient(135deg, rgba(65,58,247,1) 27%, rgba(140,33,197,1) 49%, rgba(222,0,120,1) 80%);
+    transform: skew(0, 12deg);
+
+}
